@@ -14,7 +14,6 @@ def alarm(channel, event):
 
 
 def lightsequence(channel, event):
-    LED = ['blue','yellow','red','green']
     for i in range(4):
         explorerhat.light.blue.blink(0.1,0.1)
         sleep(1)
